@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Kalam', sans-serif; */
+    font-family: 'Ubuntu', cursive;
+    margin: 0px;
+    /* display: block; */
+    /* justify-content: center; */
+}
+
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --max-width: 600px;
+    --blue: rgb(25, 250, 244);
+}
+
+a {
+    color: inherit;
+}
+
+.heading {
+    font-size: 2rem;
+    padding: 1rem;
+    /* background-color: var(--primary); */
+    text-align: center;
+    /* border-width: 0px auto 0px auto; */
+    margin: 0rem;
+    /* margin: 0px; */
+    /* padding: 0px; */
+    /* top: 0px; */
+}
+
+nav {
+    /* display: block; */
+    /* border: 0rem; */
+    /* margin: 0rem; */
+    /* padding: 0rem; */
+    /* outline: 0rem; */
+    background-color: var(--primary);
+    /* top: 0px; */
+}
+
+.btn-translate {
+    padding: 1rem;
+    background-color: var(--black);
+    /* border-style: none; */
+    border: 2px solid var(--black);
+    color: white;
+}
+
+button:hover {
+    background: white;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.inp-text {
+    /* box-sizing: border-box; */
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    padding: 10px;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--max-width);
+}
+
+.outputArea {
+    display: block;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.footer {
+    background-color: var(--primary);
+    padding: 2rem;
+    text-align: center;
+    color: black;
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
